@@ -14,6 +14,11 @@ public class Application {
 		return "Welcome to Docker demo....!!";
 	}
 
+	@GetMapping("/")
+	public String conformation(){
+		return "conformation to Docker demo.... working!!";
+	}
+
 	/*echo "# git-action-cics" >> README.md
 	git init
 	git add README.md
